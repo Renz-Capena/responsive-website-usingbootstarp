@@ -1,0 +1,40 @@
+.section_1 {
+  width: 100px;
+  background-color: red;
+  height: 99px;
+}
+
+.nav-edit {
+  margin-left: 20px;
+}
+
+.services {
+  margin-top: 100px;
+}
+
+.home_bg {
+  width: 100%;
+}
+
+.section_events {
+  margin: 0px 10px;
+  margin-top: 75px;
+}
+
+.event_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid;
+  margin: 10px 0px;
+}
+
+.event_description {
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.event_1_img {
+  margin: 0px;
+}
+

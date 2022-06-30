@@ -1,0 +1,18 @@
+.event_wrapper {
+}
+
+@media screen and (min-width:0px) and (max-width:425px) {
+  .event_wrapper {
+    background: rgba(0,0,0,0.2);
+  }
+}
+
+@media screen and (min-width:0px) and (max-width:425px) {
+  .event_1_img {
+    display: none;
+  }
+}
+
+.event_wrapper {
+}
+
