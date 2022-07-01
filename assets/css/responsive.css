@@ -10,6 +10,12 @@
   }
 }
 
+@media screen and (min-width:0px) and (max-width:425px) {
+  .card_img_wrapper {
+    height: 300px;
+  }
+}
+
 @media screen and (min-width:950px) and (max-width:7000px) {
   .container_about_us {
     display: flex;

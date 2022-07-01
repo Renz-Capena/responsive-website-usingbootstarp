@@ -62,3 +62,9 @@ li a {
   cursor: pointer;
 }
 
+.card_img_wrapper {
+  height: 700px;
+  width: 100%;
+  background-color: red;
+}
+
