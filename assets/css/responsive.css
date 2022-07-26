@@ -17,6 +17,12 @@
 }
 
 @media (max-width: 777px) {
+  .contact_picture_service {
+    display: none;
+  }
+}
+
+@media (max-width: 777px) {
   .about_pics {
     width: 60px;
   }
