@@ -1,40 +1,67 @@
-@media screen and (min-width:0px) and (max-width:425px) {
-  .event_wrapper {
-    background: rgba(0,0,0,0.2);
-  }
-}
-
-@media screen and (min-width:0px) and (max-width:425px) {
+@media (max-width:1000px) {
   .event_1_img {
     display: none;
   }
 }
 
-@media screen and (min-width:0px) and (max-width:425px) {
+@media (max-width:1000px) {
   .card_img_wrapper {
     height: 300px;
   }
 }
 
-@media screen and (min-width:950px) and (max-width:7000px) {
+@media (max-width: 777px) {
+  .logo_1 {
+    display: none;
+  }
+}
+
+@media (max-width: 777px) {
+  .about_pics {
+    width: 60px;
+  }
+}
+
+@media (max-width: 777px) {
+  .first_section {
+    margin-top: 5vh;
+  }
+}
+
+@media (max-width:1000px) {
   .container_about_us {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: block;
+    text-align: center;
   }
 }
 
-@media screen and (min-width:950px) and (max-width:7000px) {
-  .about_us_wrapper {
-    width: 49%;
-  }
-}
-
-@media screen and (min-width:600px) and (max-width:7000px) {
+@media (min-width:1000px) and (max-width:7000px) {
   .mission_vision_wrapper {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
+}
+
+@media (max-width:1000px) {
+  .about_responsive {
+    display: grid;
+    grid-column: auto;
+  }
+}
+
+#about {
+  width: min(900px,90%);
+}
+
+section_about {
+  width: min(900px,90%);
+}
+
+.about_description_1 {
+  width: min(400px,90%);
+  margin: auto;
+  font-size: clamp(10px,3vw,18px);
+  padding: 20px;
 }
 

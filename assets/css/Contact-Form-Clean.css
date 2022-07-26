@@ -98,23 +98,13 @@
   margin-top: -10px;
 }
 
-.icon_bg_links:hover {
-  background-color: #c9c9c9;
+.about_persons {
+  width: min(400px,90%);
 }
 
-.icon_bg_links_1:hover {
-  background-color: rgba(255,0,0,0.8);
-}
-
-.icon_bg_links_2:hover {
-  background-color: rgba(189,0,255,0.8);
-}
-
-.icon_bg_links_3:hover {
-  background-color: rgba(0,178,255,0.8);
-}
-
-.icon_bg_links_4:hover {
-  background-color: rgba(0,117,255,0.8);
+.container_about_us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
