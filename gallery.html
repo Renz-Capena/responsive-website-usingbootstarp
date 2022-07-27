@@ -28,10 +28,10 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
+<body style="background: orange;">
     <nav class="navbar navbar-light navbar-expand-md fixed-top bg-warning">
-        <div class="container-fluid"><img data-bss-hover-animate="rubberBand" class="logo_icon" src="assets/img/260824183_420648229664696_8482978550941663523_n.png" width="50" height="50"><a class="navbar-brand text-uppercase tada animated nav-edit" href="index.html" style="font-family: Audiowide, serif;"><strong>Dynamic Pitch</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse text-uppercase" id="navcol-1">
+        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-uppercase" id="navcol-1" style="margin-right: 20%;margin-left: 20%;"><img class="logo_1" src="assets/img/260824183_420648229664696_8482978550941663523_n.png" style="width: 60px;">
                 <ul class="navbar-nav text-center ms-auto">
                     <li class="nav-item text-center"><a class="nav-link active" data-bss-hover-animate="swing" href="index.html">home</a></li>
                     <li class="nav-item"><a class="nav-link" data-bss-hover-animate="swing" href="services.html">services</a></li>
@@ -42,14 +42,14 @@
             </div>
         </div>
     </nav>
-    <section style="margin-top: 70px;">
-        <section class="photo-gallery">
-            <div class="container">
+    <section style="margin-top: 70px;margin-bottom: 100px;">
+        <section class="photo-gallery" style="background: orange;">
+            <div class="container" style="background: rgba(0,128,0,0);">
                 <div class="intro">
                     <h2 class="text-center" data-aos="fade-up" data-aos-duration="900">DYNAMIC PITCH GALLERY</h2>
                     <p class="text-center" data-aos="fade-up" data-aos-duration="900" data-aos-delay="150">This is <strong>Dynamic Pitch</strong> Gallery</p>
                 </div>
-                <div class="row photos" data-bss-baguettebox="">
+                <div class="row photos" data-bss-baguettebox="" style="background: orange;padding: 30px;box-shadow: 5px 5px 20px 4px var(--bs-dark);border-radius: 20px;">
                     <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="fade-up" data-aos-duration="900"><a href="assets/img/Untitled.png"><img class="img-fluid image_radius" src="assets/img/dwada.png"></a></div>
                     <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200"><a href="assets/img/3.png"><img class="img-fluid image_radius" src="assets/img/3.png"></a></div>
                     <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="fade-up" data-aos-duration="900" data-aos-delay="400"><a href="assets/img/4.png"><img class="img-fluid image_radius" src="assets/img/4.png"></a></div>
@@ -66,16 +66,35 @@
             </div>
         </section>
     </section>
-    <footer class="footer-basic">
-        <div class="social"><a data-aos="fade-up" data-aos-duration="900" data-aos-delay="200" class="icon_bg_links_1" href="https://www.instagram.com/dynamic_pitch/"><i class="icon ion-social-instagram"></i></a><a data-aos="fade-up" data-aos-duration="900" data-aos-delay="400" class="icon_bg_links_2" href="https://discord.com/invite/dyr7Wubb"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-discord discord_icon">
-                    <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path>
-                </svg></a><a data-aos="fade-up" data-aos-duration="900" data-aos-delay="600" class="icon_bg_links_3" href="https://twitter.com/dynamic_pitch"><i class="icon ion-social-twitter"></i></a><a data-aos="fade-up" data-aos-duration="900" data-aos-delay="800" class="icon_bg_links_4" href="https://www.facebook.com/dynamicpitch/"><i class="icon ion-social-facebook"></i></a><a data-aos="fade-up" data-aos-duration="900" data-aos-delay="1000" class="icon_bg_links" href="https://allsocials.link/dynamicpitch"><i class="icon ion-android-more-horizontal"></i></a></div>
-        <ul class="list-inline">
-            <li class="list-inline-item"></li>
-            <li class="list-inline-item"><a href="#">Terms</a></li>
-            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p class="copyright">Renz Collin Capena © 2022</p>
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Dynamic Pitch</h3>
+                    <p>We are a brand under Caesar Bryan C. Samareta Marketing Consultancy (CBSamareta Marketing Consultancy).<br></p>
+                </div>
+                <div class="col item social"><a data-aos="fade-up" data-aos-duration="400" href="https://www.facebook.com/dynamicpitch"><i class="icon ion-social-facebook"></i></a><a data-aos="fade-up" data-aos-duration="600" href="https://twitter.com/dynamic_pitch"><i class="icon ion-social-twitter"></i></a><a data-aos="fade-up" data-aos-duration="800" href="https://discord.com/invite/dyr7Wubb"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-discord discord_icon">
+                            <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path>
+                        </svg></a><a data-aos="fade-up" data-aos-duration="1000" href="https://www.instagram.com/dynamic_pitch/"><i class="icon ion-social-instagram"></i></a><a data-aos="fade-up" data-aos-duration="1200" href="https://allsocials.link/dynamicpitch"><i class="icon ion-android-more-horizontal"></i></a></div>
+            </div>
+            <p class="copyright">Dynamic Pitch © 2022<br>by: Renz Collin D. Capeña<br><br></p>
+        </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

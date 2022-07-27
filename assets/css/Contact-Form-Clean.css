@@ -113,3 +113,12 @@
   justify-content: space-between;
 }
 
+.events_description {
+  width: min(500px,90%);
+}
+
+.btn_more_services {
+  border: 1px solid #000000;
+  color: #000000;
+}
+
